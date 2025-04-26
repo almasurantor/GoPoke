@@ -1,0 +1,41 @@
+:root {
+  --color-primary: #4CB3F0;   /* Blue from glasses */
+  --color-accent: #8DD173;    /* Green background */
+  --color-shell: #ECDCA6;     /* Shell yellow */
+  --color-hover: #BEE4EC;     /* Aqua hover */
+  --color-dark: #2A3B47;      /* Outline/text */
+  --color-bg: #F2FAFD;        /* Soft blue background */
+  --color-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #3498db;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
