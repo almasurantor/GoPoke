@@ -134,4 +134,4 @@ function formatDate(dateString) {
   return new Date(dateString).toLocaleDateString(undefined, options);
 }
 
-export default Profile;
+export default Profile; 
